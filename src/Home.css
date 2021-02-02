@@ -1,0 +1,72 @@
+.home {
+  width: 100%;
+  margin-top: 100px;
+  font-family: 'Open Sans', sans-serif;
+}
+.home_top > img {
+  width: 449px !important;
+  height: 299px !important;
+}
+
+.top_hotels {
+  margin-left: 150px;
+  border-bottom: 3px solid turquoise;
+  display: inline;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.home_bottom {
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.home__dark {
+  color: turquoise !important;
+}
+
+.home_top {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.reviews {
+  display: inline;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 100px;
+  border-bottom: 3px solid turquoise;
+}
+
+.home_middle {
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.home_middle > img {
+  width: 80%;
+  height: 400px;
+}
+
+.tour-info-one > h1 {
+  color: turquoise;
+  border-bottom: 2px solid turquoise;
+  margin-bottom: 5px;
+}
+
+.readMore {
+  margin-top: 5px !important;
+  background-color: turquoise !important;
+  color: white !important;
+}
+
+.readMore:hover {
+  margin-top: 5px !important;
+  background-color: white !important;
+  color: black !important;
+  transition: 100ms all ease-in !important;
+}

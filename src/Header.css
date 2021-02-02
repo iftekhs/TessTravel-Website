@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: transparent;
+  padding-top: 10px !important;
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+}
+.header.active {
+  background-color: black !important ;
+  transition: 500ms all ease-in;
+}
+
+.icons {
+  color: white !important;
+  position: relative !important;
+  animation: drop 1s linear;
+  position: relative;
+  transition: 100ms all ease;
+  display: none;
+  margin-right: 25px;
+}
+
+.options {
+  display: flex !important;
+  align-items: center !important;
+}
+.options > h3 {
+  font-weight: 200;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.options > h3:hover {
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  color: black;
+  cursor: pointer;
+  transition: 200ms all ease-in;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header_left {
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+}
+
+@keyframes drop {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: 0;
+  }
+}

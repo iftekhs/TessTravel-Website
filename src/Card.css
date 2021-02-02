@@ -1,0 +1,51 @@
+.card {
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+  background-color: white;
+  height: 500px;
+  width: 300px;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.card:hover {
+  box-shadow: -0px 6px -18px 9px rgba(0, 0, 0, 0.75);
+  transform: scale(1.07) !important;
+}
+
+.dark_card {
+  background-color: black !important;
+}
+
+.searchResult__star {
+  color: red !important;
+}
+
+.card > img {
+  width: 300px !important;
+  height: 200px !important;
+}
+.card_middle {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_middle_info {
+  margin-left: 5px;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.card_middle_top {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.card_middle_top > h3 {
+  margin-left: 5px !important;
+}
